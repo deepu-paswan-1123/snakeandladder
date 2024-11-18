@@ -1,0 +1,123 @@
+.snake-container{
+    width: 480px;
+    margin: 20px auto;
+    
+}
+
+.snake-container .container {
+    border: 1px solid red;
+    height: 500px;
+    width: 500px;
+    background-image: url('snakeandimage\ \(1\).jpg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 48px;
+    width: 48px;
+    /* background-color: rgba(173, 216, 230, 0.516); */
+    /* border: 1px solid black; */
+    position: relative;
+    z-index: 99;
+}
+
+
+
+
+.diceCont{
+    /* border:2px solid red;     */
+    transform: translateX(-300px) translateY(-300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    
+}
+
+.diceCont h2, .diceCont p, .diceCont .roll-btn {
+    margin: 0;
+    padding: 0;
+}
+
+.diceBtn {
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmin;
+    cursor: pointer;
+    
+}
+
+.tog {
+    font-size: 5vmin;
+    color: red;
+}
+
+.dice {
+    font-size: 4vmin;
+    font-weight: 900;
+}
+
+.col{
+    color: goldenrod;
+}
+
+#p1{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    transition: .5s linear;
+    /* left: -62px; */
+    
+    
+    
+    
+}
+#p2{
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+    position:relative;
+    transition: .5s linear;
+    z-index: 99;
+    /* top: -53px;
+    left: -62px; */
+
+    
+    
+}
+
+#p1 {
+    position: relative;
+    top: 0px;
+    transition: all linear 0.5s;
+    left: -45px;
+    margin-top: 0px;  
+    z-index: 2;
+  }
+
+  #p2 {
+    z-index: 2;
+    position: relative;
+    top: -55px;
+    left: -45px;
+    transition: all linear 0.5s;
+    background-color: rgb(243, 181, 46);
+  }
+
+  
+
+
